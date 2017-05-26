@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/diy_lightGray">
+
+    <TextView
+        android:id="@id/tab_login_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:text="@string/str_msg122"
+        android:textColor="@color/diy_green"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@id/tab_regist_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/tab_login_top"
+        android:text="@string/str_msg123"
+        android:textColor="@color/diy_content"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:layout_marginRight="15dp"
+        android:text="@string/str_msg124"
+        android:textColor="@color/diy_green"
+        android:textSize="@dimen/text" />
+</RelativeLayout>
+

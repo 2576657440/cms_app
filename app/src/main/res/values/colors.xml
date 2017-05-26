@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="diyWhiteColor">#ffffff</color>
+    <color name="diyGreenColor">#31c27c</color>
+    <color name="diyMainBg">#E6E6E6</color>
+    <color name="diyPicBg">#c6232323</color>
+    <color name="diy_title">#333333</color>
+    <color name="diy_content">#666666</color>
+    <color name="diy_date">#a3a3a3</color>
+    <color name="diy_hint">#585858</color>
+    <color name="diy_red">#f40e1d</color>
+    <color name="diy_line">#C3C3C3</color>
+    <color name="diy_bar_grey">#4d5150</color>
+    <color name="diy_transparent">#00000000</color>
+    <color name="diy_purple">#0000ff00</color>
+    <color name="diy_green">#31c27c</color>
+    <color name="diy_gray">#e2e2e9</color>
+    <color name="diy_lightGray">#f8f8f9</color>
+    <color name="diy_white">#ffffff</color>
+    <color name="diy_orange">#f3813b</color>
+    <color name="diy_dark">#222222</color>
+    <color name="diy_lightWhite">#FFF7F7</color>
+    <color name="diy_">#d7d7dc</color>
+    <color name="diy_popup_pressed">#4A4A4A</color>
+    <color name="ijk_transparent_dark">#77000000</color>
+</resources>

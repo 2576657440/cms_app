@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LabelledMarqueeEditText">
+
+        <attr name="android:text"/>
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="android:textStyle"/>
+        <attr name="android:hint"/>
+        <attr name="baseColor" format="color"/>
+        <attr name="highlightColor" format="color"/>
+        <attr name="iconColor" format="color"/>
+        <attr name="iconKey" format="string"/>
+        <attr name="iconGravity" format="enum">
+            <enum name="right" value="0"/>
+            <enum name="left" value="1"/>
+        </attr>
+        <attr name="errorColor" format="color"/>
+        <attr name="error" format="string"/>
+        <attr name="errorEnabled"/>
+        <attr name="mode" format="enum">
+            <enum name="edit" value="0"/>
+            <enum name="marquee" value="1"/>
+        </attr>
+        <attr name="android:inputType"/>
+        <attr name="android:maxLength"/>
+        <attr name="android:textAllCaps"/>
+        <attr name="labelledMarqueeEditTextStyle" format="reference"/>
+
+    </declare-styleable>
+
+</resources>

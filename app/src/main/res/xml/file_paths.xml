@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--表示Context.getFilesDir()目录或者其子目录 示例: /data/data/包名/files/FilesDir-->
+    <files-path name="FilesDir" path="." />
+    <!--表示Context.getCacheDir()目录或者其子目录。示例: /data/data/包名/CacheDir-->
+    <cache-path name="CacheDir" path="." />
+    <!--表示Environment.getExternalStorageDirectory()目录或者其子目录。示例 : /storage/emulated/0/ExternalStorageDirectory-->
+    <external-path name="ExternalStorageDirectory" path="." />
+    <!--表示Context.getExternalFilesDir(null)目录或者其子目录。示例 : /storage/emulated/0/Android/data/包名/files/ExternalFilesDir-->
+    <external-files-path name="ExternalFilesDir" path="." />
+    <!--表示Context.getExternalCacheDir()目录或者其子目录。示例 : /storage/emulated/0/Android/data/包名/cache/ExternalCacheDir-->
+    <external-cache-path name="ExternalCacheDir" path="." />
+</paths>

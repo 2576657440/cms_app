@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_line_rounded"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:textColor="@color/diyGreenColor"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/diyGreenColor" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="top|left"
+        android:hint="驳回原因"
+        android:maxLength="100"
+        android:minLines="3"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:lineSpacingMultiplier="1"
+        android:paddingTop="10dp"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/goBack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/str_msg225"
+            android:textColor="@color/diy_content"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/str_msg223"
+            android:textColor="@color/diy_content"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:text="@string/str_msg224"
+            android:textColor="@color/diy_content"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

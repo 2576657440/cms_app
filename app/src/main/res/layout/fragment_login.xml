@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_centerInParent="true"
+    android:background="@color/diy_lightGray">
+
+    <LinearLayout
+        android:id="@id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@color/diy_lightGray">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/mylogo"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/diy_dark"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/diy_white"
+        android:layout_below="@id/linearlayout1">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/diy_gray"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/phone"/>
+
+
+            <org.com.gannan.farminginfoplatform.widget.ClearEditText
+                android:id="@+id/userName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@null"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:digits="@string/user_name_digits"
+                android:drawableRight="@mipmap/close"
+                android:hint="@string/hint1"
+                android:textColorHint="@color/diy_content"
+                android:maxLength="16"
+                android:maxLines="1"
+                android:textSize="16sp">
+
+                <requestFocus />
+            </org.com.gannan.farminginfoplatform.widget.ClearEditText>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/diy_gray"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/lock"/>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@null"
+                android:digits="@string/register_pwd_digits"
+                android:hint="@string/hint2"
+                android:textColorHint="@color/diy_content"
+                android:maxLength="16"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/diy_gray" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hintText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margleft"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/diy_red"
+        android:layout_below="@+id/activity_login"
+        android:textSize="@dimen/text" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:text="@string/login"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="@color/diy_white"
+        android:layout_below="@+id/hintText"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+
+</RelativeLayout>

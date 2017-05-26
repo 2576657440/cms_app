@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/diy_white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/diaolog_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#F8F8F8"
+        android:gravity="center"
+        android:text="@string/str_msg127"
+        android:textColor="@color/diy_title"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="#CCCCCC"
+        android:padding="1dp" />
+
+    <LinearLayout
+        android:id="@+id/date_selelct_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <org.com.gannan.farminginfoplatform.widget.WheelView
+            android:id="@+id/year"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" />
+
+        <org.com.gannan.farminginfoplatform.widget.WheelView
+            android:id="@+id/month"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1" />
+
+        <org.com.gannan.farminginfoplatform.widget.WheelView
+            android:id="@+id/day"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_bg_blue_rounded"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/str_msg128"
+        android:textColor="@color/diy_white"
+        android:textSize="18sp" />
+</LinearLayout>

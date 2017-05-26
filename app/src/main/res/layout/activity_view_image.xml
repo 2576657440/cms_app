@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/diy_dark"
+    android:orientation="vertical">
+
+
+    <org.com.gannan.farminginfoplatform.viewimage.GalleryViewPager
+        android:id="@+id/viewer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       />
+
+    <TextView
+        android:id="@id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/diy_white"
+        android:background="@drawable/linearlayout_toast_bgstyle"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp" />
+</FrameLayout>

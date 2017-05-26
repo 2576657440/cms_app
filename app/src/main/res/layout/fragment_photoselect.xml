@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/diyWhiteColor" >
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="4dp"
+        android:verticalSpacing="4dp"
+        android:listSelector="#00ffffff"
+        android:background="#DAD9D9"
+        android:numColumns="3"
+         >
+    </GridView>
+
+</RelativeLayout>
